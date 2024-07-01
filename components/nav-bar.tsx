@@ -23,7 +23,7 @@ export default function NavBar() {
   return (
     <div
       ref={scope}
-      className="container sticky top-0 flex items-center justify-between py-4"
+      className="container sticky top-0 z-50 flex items-center justify-between py-4"
     >
       <div className="logo relative h-[22px] w-[145px]">
         <Image
@@ -48,7 +48,7 @@ function NavItem({ href, text }: { href: string; text: string }) {
   return (
     <li className="navItem flex cursor-pointer flex-col items-center justify-center">
       {text}
-      <div className="h-[2px] w-full bg-white transition-all" />
+      <div className="hover-effect h-[2px] w-full bg-white transition-all" />
     </li>
   );
 }
@@ -60,7 +60,7 @@ function Contato() {
       className="navItem relative overflow-hidden rounded-2xl border-2 border-dashed border-white px-4 py-2 text-white hover:text-black"
     >
       Contato
-      <div className="absolute left-0 top-0 -z-10 h-full w-full bg-white" />
+      <div className="hover-effect absolute left-0 top-0 -z-10 h-full w-full bg-white" />
     </button>
   );
 }

@@ -15,14 +15,14 @@ html {
   background-color: var(--black);
 }
 
-.navItem > div {
+.hover-effect {
   clip-path: rect(0% 0% 100% 0%);
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
 
 .navItem:hover {
-  & > div {
+  & > .hover-effect {
     opacity: 1;
     clip-path: rect(0 100% 100% 0);
   }

@@ -3,7 +3,7 @@ import NavBar from "@/components/nav-bar";
 
 export default function Home() {
   return (
-    <main>
+    <main className="relative">
       <NavBar />
       <Hero />
     </main>
