@@ -11,10 +11,6 @@
   --white: #e8e8e8;
 }
 
-html {
-  background-color: var(--black);
-}
-
 .hover-effect {
   clip-path: rect(0% 0% 100% 0%);
   opacity: 0;

@@ -35,7 +35,7 @@ export default function Hero() {
     { scope: scope },
   );
   return (
-    <section className="relative h-screen overflow-hidden bg-black" ref={scope}>
+    <section className="relative h-screen overflow-hidden" ref={scope}>
       <div className="container flex h-full flex-col justify-center gap-8 text-white">
         <h1 className="enter flex gap-6 text-5xl font-bold">
           ARTE E{" "}
@@ -52,7 +52,7 @@ export default function Hero() {
           </CTAButton>
         </span>
       </div>
-      <Circle className="circle absolute -bottom-[25%] -right-[25%] scale-125 opacity-80" />
+      {/* <Circle className="circle absolute -bottom-[25%] -right-[25%] scale-125 opacity-80" /> */}
     </section>
   );
 }
